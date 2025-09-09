@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h5{
+    color:rgb(0, 0, 0)  !important;
+}
+.titulo{
+    background-color: rgb(144, 0, 255);
+   color: rgb(0, 0, 0);
+   
+   margin: 0 10px 0 0;
+   padding: 10px;
+
+   p{
+    background-color: azure;
+    width: 200px;
+    height: 200px;
+
+   }
+   .formulario {
+    background-color: dimgrey;
+   width: 400px;
+   margin: o auto;
+   }
+    .input-nome{
+      
+        border: none;
+     
+        border-radius: 10px;
+
+        margin-left: 10px;
+        
+        opacity: 70%;
+    }
+    .botao{
+        background-color: aquamarine;
+        border: none;
+        padding: 5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: large;
+        text-shadow: 5px 2px 5px rgba(red, green, blue, alpha);
+        
+    }
+}

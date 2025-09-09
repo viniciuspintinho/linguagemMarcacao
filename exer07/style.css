@@ -1,0 +1,32 @@
+*{
+margin: 18px;
+padding: 18px;
+h4{
+    color: chartreuse;
+text-align: center;
+font-size: 50px;
+}
+label{
+    font-size: 25px;
+    padding: auto;
+    border-radius: 10px;
+
+}
+input{
+    font-size: 20px;
+     border-radius: 10px;
+}
+a{
+   background-color: rgb(207, 22, 22);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-left: 420px;
+    padding: 10px;
+    border-radius: 30;
+}
+
+}
+
+
+
+
