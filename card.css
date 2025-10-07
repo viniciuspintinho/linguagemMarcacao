@@ -1,0 +1,59 @@
+.card{
+    width: 300px;
+    border: 1px solid rgb(255, 0, 191);
+    height: 450px;
+     border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(pink, rgb(255, 0, 187), blue, alpha);
+    font-family: arial, Arial, Helvetica, sans-serif;
+    transition: trasformar 0.3s, ease-in-out;
+flex: 0.0 0 auto;
+}
+.card:houver{
+    transform: scale(1.1);
+}
+.card-imagem{
+    display: flex;
+    flex-direction: column;
+
+}
+.card-imagem > img{
+    max-width: 100%;
+    height: 150px;
+}
+.card-imagem > figcaption{
+    font-size: 0.8rem;
+    padding: 8px;
+    text-align: center;
+    color: rgb(255, 0, 191);
+}
+.card-cabecalho{
+    padding: 10px;
+   
+}
+.card-cabecalho{
+background-color: rgb(255, 0, 191);
+text-align: center;
+padding: 6px;
+}
+.card-botao{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 0, 191);
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.card-botao:houver{
+    background-color: rgb(255, 0, 191);
+    width: 150px;
+}
+.card-container{
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex-direction: row;
+    height: 500px;
+    margin-left: 5px;
+    overflow-x: auto;
+}
